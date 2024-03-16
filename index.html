@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pricing</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        font-family: "Sono", sans-serif;
+      }
+
+      .card-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        gap: 15px;
+      }
+
+      .card-plan {
+        background-color: whitesmoke;
+        flex: 1;
+        max-width: 400px;
+        text-align: center;
+        padding: 10px;
+        border-radius: 5px;
+      }
+
+      .card-titel {
+        text-align: center;
+        font-size: 24px;
+        font-weight: bold;
+      }
+
+      .card-price {
+        font-size: 48px;
+        font-weight: bold;
+        margin-top: 10px;
+      }
+
+      .card-features {
+        list-style: none;
+      }
+
+      .button {
+        background-color: crimson;
+        border-radius: 25px;
+        color: black;
+        padding: 10px;
+      }
+
+      .button {
+        cursor: pointer;
+      }
+      .button:hover {
+        background-color: antiquewhite;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card-container">
+      <div class="card-plan">
+        <div class="card-titel">Basic</div>
+        <div class="card-price">400rps/month</div>
+        <ul class="card-features">
+          <li>✅ 10GB storage</li>
+          <li>✅ 1 user</li>
+          <li>🚫support</li>
+        </ul>
+
+        <button class="button">sign in</button>
+      </div>
+
+      <div class="card-plan">
+        <div class="card-titel">premium</div>
+        <div class="card-price">800rps/month</div>
+        <ul class="card-features">
+          <li>✅ 50GB storage</li>
+          <li>✅ 10 users</li>
+          <li>✅ phone & email support</li>
+        </ul>
+
+        <button class="button">sign in</button>
+      </div>
+
+      <div class="card-plan">
+        <div class="card-titel">Standard</div>
+        <div class="card-price">1200rps/month</div>
+        <ul class="card-features">
+          <li>✅ 100GB storage</li>
+          <li>✅ 20 users</li>
+          <li>✅ 24/ 7 support</li>
+        </ul>
+
+        <button class="button">sign in</button>
+      </div>
+    </div>
+  </body>
+</html>
